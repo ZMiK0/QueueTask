@@ -18,3 +18,8 @@ sudo cp -r QueueTask /usr/local/bin/
 sudo ln -s /usr/local/bin/QueueTask/main /usr/local/bin/quetask
 rm -r QueueTask
 ```
+
+# Use
+```shell
+$ quetask
+```
