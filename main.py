@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import queue
 import os
 
@@ -12,17 +14,17 @@ while not end:
     clear()
     q.printQueue()
     try:
-        option = int(input("-----------------\nQue quieres hacer:\n\n1.Añadir a la cola\n2.Finalziar tarea actual\n3.Salir\n\nElección: "))
+        option = int(input("-----------------\nQue quieres hacer:\n\n1.Add Task to Queue\n2.End actual task\n3.Exit\n\nSELECT: "))
         if option == 1:
             clear()
-            task = input("Tarea a añadir: ")
+            task = input("Task name: ")
             q.enqueue(task)
         elif option == 2:
             clear()
             q.dequeue()
         elif option == 3:
             clear()
-            print("--Proceso terminado, cola eliminada--")
+            print("--Program terminated, deleting queue--")
             input("")
             end = True
 

@@ -5,3 +5,16 @@ To do:
 -
 * Darle prioridad urgente a una tarea cualquiera
 * Compatibildad con windows
+
+# Installation
+
+```shell
+git clone https://github.com/ZMiK0/QueueTask.git
+cd QueueTask
+mv main.py main
+chmod a+x main
+cd ..
+sudo cp -r QueueTask /usr/local/bin/
+sudo ln -s /usr/local/bin/QueueTask/main /usr/local/bin/quetask
+rm -r QueueTask
+```

@@ -16,10 +16,10 @@ class Queue:
 
     def printQueue(self):
         print("-----------------")
-        print("COLA DE TAREAS")
+        print("TASK QUEUE")
         print("-----------------")
         for i in range(len(self.items)):
             if i == len(self.items)-1:
-                print(f"{len(self.items) - i}: {self.items[i]}  <--- TAREA ACTUAL")
+                print(f"{len(self.items) - i}: {self.items[i]}  <--- NOW")
             else:
                 print(f"{len(self.items)-i}: {self.items[i]}")
