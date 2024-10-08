@@ -1,10 +1,10 @@
 
-Programa sencillo de seguimiento de tareas para la gente que no quiere comerse la cabeza con programas ultra complejos como Notion
+# QueueTask
 
-To do:
--
-* Darle prioridad urgente a una tarea cualquiera
-* Compatibildad con windows
+An easy-to-use TUI program for managing tasks in a queue. I created this program to
+simplify the experience of using other tools like
+Notion, Microsoft To Do, and similar applications.
+
 
 # Installation
 
@@ -29,4 +29,10 @@ sudo rm -r /usr/local/bin/QueueTask
 ```shell
 $ quetask
 ```
+
+# Extra
+
+> To do:
+> * Add windows support
+> * Make any task a priority
 

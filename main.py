@@ -14,7 +14,7 @@ while not end:
     clear()
     q.printQueue()
     try:
-        option = int(input("-----------------\nQue quieres hacer:\n\n1.Add Task to Queue\n2.End actual task\n3.Exit\n\nSELECT: "))
+        option = int(input("-----------------\nWhat would you like to do?:\n\n1.Add Task to Queue\n2.End actual task\n3.Exit\n\nSELECT: "))
         if option == 1:
             clear()
             task = input("Task name: ")
