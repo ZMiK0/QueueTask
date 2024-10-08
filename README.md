@@ -19,7 +19,14 @@ sudo ln -s /usr/local/bin/QueueTask/main /usr/local/bin/quetask
 rm -r QueueTask
 ```
 
+## Uninstall
+```shell
+sudo rm /usr/local/bin/quetask
+sudo rm -r /usr/local/bin/QueueTask
+```
+
 # Use
 ```shell
 $ quetask
 ```
+
