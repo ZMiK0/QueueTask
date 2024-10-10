@@ -28,10 +28,7 @@ while not end:
             print("--Program terminated, deleting queue--")
             input("")
             end = True
-
-
     except:
         clear()
         print("ERROR")
         input("")
-

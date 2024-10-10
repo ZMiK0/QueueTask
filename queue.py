@@ -9,7 +9,11 @@ class Queue:
         self.items = []
 
     def enqueue(self, item):
-        self.items.insert(0, item)
+        if not item or item.startswith(" "):
+            pass
+        else:
+            self.items.insert(0, item)
+
 
     def dequeue(self):
         return self.items.pop()
