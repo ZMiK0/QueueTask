@@ -8,6 +8,9 @@ Notion, Microsoft To Do, and similar applications.
 
 # Installation
 
+> [!WARNING]
+> This installation requires sudo to run.
+
 ```shell
 git clone https://github.com/ZMiK0/QueueTask.git
 cd QueueTask
@@ -24,6 +27,9 @@ rm -r QueueTask
 sudo rm /usr/local/bin/quetask
 sudo rm -r /usr/local/bin/QueueTask
 ```
+
+> [!TIP]
+> To update just uninstall and install again :P (I'm working on this).
 
 # Use
 ```shell
