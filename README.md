@@ -31,6 +31,9 @@ sudo rm -r /usr/local/bin/QueueTask
 > [!TIP]
 > To update just uninstall and install again :P (I'm working on this).
 
+> [!IMPORTANT]
+> On Windows just clone the repo, `cd` into it, and run `main.py` from the terminal
+
 # Use
 ```shell
 $ quetask
@@ -39,6 +42,5 @@ $ quetask
 # Extra
 
 > To do:
-> * Add windows support
 > * Make any task a priority
 
