@@ -9,7 +9,10 @@ q = queue.Queue()
 end = False
 
 def clear():
-    os.system("clear")
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
 
 while not end:
     clear()
